@@ -2,7 +2,7 @@
 FROM node:lts-alpine as build
 
 ARG PARSE_REPO="https://github.com/parse-community/parse-server.git"
-ARG PARSE_VERION="master"
+ARG PARSE_VERION="4.5.0"
 
 RUN apk update; \
   apk add git;
