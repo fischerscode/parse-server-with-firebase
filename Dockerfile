@@ -21,8 +21,6 @@ RUN npm run build
 # Release stage
 FROM node:lts-alpine as release
 
-MAINTAINER Maximilian Fischer "github@maaeps.de"
-
 VOLUME /parse-server/cloud /parse-server/config
 
 WORKDIR /parse-server
