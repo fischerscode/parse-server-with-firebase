@@ -1,8 +1,8 @@
 # Build stage
 FROM node:lts-alpine as build
 
-ARG PARSE_REPO="https://github.com/parse-community/parse-server.git"
-ARG PARSE_VERION="master"
+ARG PARSE_REPO="https://github.com/fischerscode/parse-server.git"
+ARG PARSE_VERION="fix-livequery"
 
 RUN apk update; \
   apk add git;
